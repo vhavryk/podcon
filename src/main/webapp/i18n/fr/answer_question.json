@@ -1,0 +1,26 @@
+{
+    "podconApp": {
+        "answer_question" : {
+            "home": {
+                "title": "Answer_questions",
+                "createLabel": "Créer un nouveau Answer_question",
+                "createOrEditLabel": "Créer ou éditer un Answer_question"
+            },
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le Answer_question {{ id }} ?"
+            },
+            "detail": {
+                "title": "Answer_question"
+            },
+            "question": "Question",
+            "answer": "Answer",
+            "active": "Active",
+            "actual_order": "Actual_order",
+            "user_email": "User_email",
+            "updateDate": "updateDate",
+            "category": "category",
+            "tag": "tag"
+        }
+    }
+}
+

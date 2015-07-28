@@ -1,0 +1,21 @@
+{
+  "generator-jhipster": {
+    "baseName": "podcon",
+    "packageName": "com.va.podcon",
+    "packageFolder": "com/va/podcon",
+    "authenticationType": "session",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": "no",
+    "websocket": "no",
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "no",
+    "useCompass": false,
+    "buildTool": "maven",
+    "frontendBuilder": "grunt",
+    "javaVersion": "7",
+    "rememberMeKey": "9223aab6cdf8c5de0d2c6f1ec1656806c841ec02",
+    "enableTranslation": true
+  }
+}

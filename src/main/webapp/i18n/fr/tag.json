@@ -1,0 +1,21 @@
+{
+    "podconApp": {
+        "tag" : {
+            "home": {
+                "title": "Tags",
+                "createLabel": "Créer un nouveau Tag",
+                "createOrEditLabel": "Créer ou éditer un Tag"
+            },
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le Tag {{ id }} ?"
+            },
+            "detail": {
+                "title": "Tag"
+            },
+            "name": "Name",
+            "actual_order": "Actual_order",
+            "answer_question": "answer_question"
+        }
+    }
+}
+

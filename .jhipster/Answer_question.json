@@ -1,0 +1,103 @@
+{
+    "relationships": [
+        {
+            "relationshipId": 1,
+            "relationshipName": "category",
+            "relationshipNameCapitalized": "Category",
+            "relationshipFieldName": "category",
+            "otherEntityName": "category",
+            "relationshipType": "many-to-one",
+            "otherEntityNameCapitalized": "Category",
+            "otherEntityField": "name"
+        },
+        {
+            "relationshipId": 2,
+            "relationshipName": "tag",
+            "relationshipNameCapitalized": "Tag",
+            "relationshipFieldName": "tag",
+            "otherEntityName": "tag",
+            "relationshipType": "many-to-many",
+            "otherEntityNameCapitalized": "Tag",
+            "otherEntityField": "name",
+            "ownerSide": true
+        }
+    ],
+    "fields": [
+       
+        {
+            "fieldId": 1,
+            "fieldName": "question",
+            "fieldType": "String",
+            "fieldNameCapitalized": "Question",
+            "fieldNameUnderscored": "question",
+            "fieldInJavaBeanMethod": "Question",
+            "fieldValidate": true,
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+ {
+            "fieldId": 2,
+            "fieldName": "answer",
+            "fieldType": "String",
+            "fieldNameCapitalized": "Answer",
+            "fieldNameUnderscored": "answer",
+            "fieldInJavaBeanMethod": "Answer",
+            "fieldValidate": true,
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+	,
+        {
+            "fieldId": 3,
+            "fieldName": "active",
+            "fieldType": "Boolean",
+            "fieldNameCapitalized": "Active",
+            "fieldNameUnderscored": "active",
+            "fieldInJavaBeanMethod": "Active",
+            "fieldValidate": false
+        },
+        {
+            "fieldId": 4,
+            "fieldName": "actual_order",
+            "fieldType": "Integer",
+            "fieldNameCapitalized": "Actual_order",
+            "fieldNameUnderscored": "actual_order",
+            "fieldInJavaBeanMethod": "Actual_order",
+            "fieldValidate": false
+        },
+        {
+            "fieldId": 5,
+            "fieldName": "user_email",
+            "fieldType": "String",
+            "fieldNameCapitalized": "User_email",
+            "fieldNameUnderscored": "user_email",
+            "fieldInJavaBeanMethod": "User_email",
+            "fieldValidate": true,
+            "fieldValidateRules": [
+                "maxlength"
+            ],
+            "fieldValidateRulesMaxlength": "255"
+        },
+        {
+            "fieldId": 6,
+            "fieldName": "updateDate",
+            "fieldType": "LocalDate",
+            "fieldNameCapitalized": "updateDate",
+            "fieldNameUnderscored": "update_date",
+            "fieldInJavaBeanMethod": "UpdateDate",
+            "fieldValidate": false
+        }
+    ],
+    "fieldsContainOwnerManyToMany": true,
+    "fieldsContainOneToMany": false,
+    "fieldsContainLocalDate": true,
+    "fieldsContainCustomTime": true,
+    "fieldsContainBigDecimal": false,
+    "fieldsContainDateTime": false,
+    "fieldsContainDate": false,
+    "changelogDate": "20150724190623",
+    "pagination": "pager",
+    "validation": true
+}

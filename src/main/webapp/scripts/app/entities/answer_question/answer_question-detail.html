@@ -1,0 +1,79 @@
+
+<div>
+    <h2><span translate="podconApp.answer_question.detail.title">Answer_question</span> {{answer_question.id}}</h2>
+
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th translate="entity.detail.field">Field</th>
+                    <th translate="entity.detail.value">Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <span translate="podconApp.answer_question.question">Question</span>
+                    </td>
+                    <td>
+                        <input type="text" class="input-sm form-control" value="{{answer_question.question}}" readonly>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span translate="podconApp.answer_question.answer">Answer</span>
+                    </td>
+                    <td>
+                        <input type="text" class="input-sm form-control" value="{{answer_question.answer}}" readonly>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span translate="podconApp.answer_question.active">Active</span>
+                    </td>
+                    <td>
+                        <input type="text" class="input-sm form-control" value="{{answer_question.active}}" readonly>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span translate="podconApp.answer_question.actual_order">Actual_order</span>
+                    </td>
+                    <td>
+                        <input type="text" class="input-sm form-control" value="{{answer_question.actual_order}}" readonly>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span translate="podconApp.answer_question.user_email">User_email</span>
+                    </td>
+                    <td>
+                        <input type="text" class="input-sm form-control" value="{{answer_question.user_email}}" readonly>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span translate="podconApp.answer_question.updateDate">updateDate</span>
+                    </td>
+                    <td>
+                        <input type="text" class="input-sm form-control" value="{{answer_question.updateDate}}" readonly>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span translate="podconApp.answer_question.category">category</span>
+                    </td>
+                    <td>
+                        <input type="text" class="input-sm form-control" value="{{answer_question.category.name}}" readonly>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <button type="submit"
+            ui-sref="answer_question"
+            class="btn btn-info">
+        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span translate="entity.action.back"> Back</span>
+    </button>
+</div>

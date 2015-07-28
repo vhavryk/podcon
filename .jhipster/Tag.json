@@ -1,0 +1,47 @@
+{
+    "relationships": [
+        {
+            "relationshipId": 1,
+            "relationshipName": "answer_question",
+            "relationshipNameCapitalized": "Answer_question",
+            "relationshipFieldName": "answer_question",
+            "otherEntityName": "answer_question",
+            "relationshipType": "many-to-many",
+            "otherEntityNameCapitalized": "Answer_question",
+            "ownerSide": false
+        }
+    ],
+    "fields": [
+        {
+            "fieldId": 1,
+            "fieldName": "name",
+            "fieldType": "String",
+            "fieldNameCapitalized": "Name",
+            "fieldNameUnderscored": "name",
+            "fieldInJavaBeanMethod": "Name",
+            "fieldValidate": true,
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+	{	
+            "fieldId": 2,
+            "fieldName": "actual_order",
+            "fieldType": "Integer",
+            "fieldNameCapitalized": "Actual_order",
+            "fieldNameUnderscored": "actual_order",
+            "fieldInJavaBeanMethod": "Actual_order",
+            "fieldValidate": false
+        }
+    ],
+    "fieldsContainOwnerManyToMany": false,
+    "fieldsContainOneToMany": false,
+    "fieldsContainLocalDate": false,
+    "fieldsContainCustomTime": false,
+    "fieldsContainBigDecimal": false,
+    "fieldsContainDateTime": false,
+    "fieldsContainDate": false,
+    "changelogDate": "20150724185359",
+    "pagination": "pager",
+    "validation": true
+}

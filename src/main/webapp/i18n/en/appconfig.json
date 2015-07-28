@@ -1,0 +1,19 @@
+{
+    "podconApp": {
+        "appconfig" : {
+            "home": {
+                "title": "Appconfigs",
+                "createLabel": "Create a new Appconfig",
+                "createOrEditLabel": "Create or edit a Appconfig"
+            },
+            "delete": {
+                "question": "Are you sure you want to delete Appconfig {{ id }}?"
+            },
+            "detail": {
+                "title": "Appconfig"
+            },
+            "name": "Name",
+            "value": "Value"
+        }
+    }
+}
